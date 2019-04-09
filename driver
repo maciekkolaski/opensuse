@@ -1,7 +1,12 @@
 #!/usr/bin/python3
+import pclass 
 def main():
-    print("dupa")
-    pass
+    mk = pclass.MyClass("Maciek", "Kolaski")
+    jk = pclass.KolaskiFamily("Jakub")
+    print(jk.name, jk.lastname)
+    print(mk.name, mk.lastname)
+    fd = pclass.FullData("Jan", "Kowalski", 42)
+    print(fd.age)
 
 if __name__ == "__main__":
 	main()
